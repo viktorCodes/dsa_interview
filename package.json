@@ -1,0 +1,22 @@
+{
+  "name": "dsa-algo-interview",
+  "version": "1.0.0",
+  "description": "dsa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorCodes/dsa_interview.git"
+  },
+  "author": "viktor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viktorCodes/dsa_interview/issues"
+  },
+  "homepage": "https://github.com/viktorCodes/dsa_interview#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
