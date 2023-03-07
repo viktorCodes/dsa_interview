@@ -47,7 +47,7 @@ Next, we would have to manipulate the characters in this string logically in ord
       //   }
 
       //   return result;
-      //   //we initialize the iterating variable i to the length of the string -1 . Since the index begins from zero, this gives us the index of the last character in the string. We simply append this last character to our result variable which is an empty string and continue the cycle until we are past the first character of the string i.e i is no longer greater than or equal to 0.
+      //   we initialize the iterating variable i to the length of the string -1 . Since the index begins from zero, this gives us the index of the last character in the string. We simply append this last character to our result variable which is an empty string and continue the cycle until we are past the first character of the string i.e i is no longer greater than or equal to 0.
       // }
 
       //We can improve this implementation further,by using the for…of loop in ES6.The for…of statement in JavaScript is used to execute a certain piece of code for each distinct item(property) of an iterable object.We use it below to run through each character in the text received and append it to the beginning of a new variable result which we return on completion as it now holds the reversed string.
@@ -71,7 +71,7 @@ Next, we would have to manipulate the characters in this string logically in ord
       //   if(text === ""){
       //       return ""
       //   }else {
-      //       return reversString(text.substr(1) + text[0])
+      //       return reverseString(text.substr(1) + text[0])
       //   }
       // }
 
@@ -82,12 +82,12 @@ Next, we would have to manipulate the characters in this string logically in ord
 
         // function reverseString(text){
         //     return text.split('').reduce((acc, cur) => cur + acc, '')
-        //     //we split the text received into an array of characters and then we call the .reduce() method on the array which begins with an empty string as the initial value and accumulates each character in reverse until it has gone through all characters in the array. At this point, it returns the completely reversed string.
+        //     we split the text received into an array of characters and then we call the .reduce() method on the array which begins with an empty string as the initial value and accumulates each character in reverse until it has gone through all characters in the array. At this point, it returns the completely reversed string.
         // }
 
         //Using the ES6 spread operator, we have
 
-        // function reversString(text){
+        // function reverseString(text){
         //     return [...text].reduce((acc, curr) => curr + acc, '')
         // }
 
